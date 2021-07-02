@@ -5,7 +5,7 @@ KM'S League Tracker is a simple Python-based CLI which allows the user to get th
 
 ## Installation
 
-Simply download tracker.py and run.
+Download tracker.py and run.
 
 ## Requirements
 
@@ -18,7 +18,8 @@ pip install requests
 ```
 ## How to Use
 
-To get the program up and running, simply open 'tracker.py'. At the moment, this is script is only available as a CLI, but a GUI is in the works.
+To get the program up and running, simply open 'tracker.py'.   
+At the moment, this is script is only available as a CLI, but a GUI is in the works.
 
 Upon opening, you will be asked to enter the region for the summoner you wish to search for.
 
@@ -29,11 +30,13 @@ Then, enter the Summoner Name.
 ![name](https://i.imgur.com/AgJQZVa.png)
 
 You will then be asked to enter your API. [Request one here.](https://developer.riotgames.com/)  
-After entering, the ID for the Summoner you entered earlier will appear.
+  
+  After entering, the ID for the Summoner you entered earlier will appear.
 
 ![api](https://i.imgur.com/d6MEv7Q.png)
 
-You will be asked to enter copy and paste the ID that was just given to you. After doing this, the Ranked data for the user you entered will be displayed.
+You will be asked to enter copy and paste the ID that was just given to you.   
+After doing this, the Ranked data for the user you entered will be displayed.
 
 ![data](https://i.imgur.com/rYrsZjS.png)
 
@@ -93,10 +96,12 @@ if __name__ == "__main__":
 
 ## Roadmap
 
-I am in the process of developing a GUI for this application to make the process a lot more streamline. As well as this, you will (hopefully) not need to copy and paste the ID to get your data.
+I am in the process of developing a GUI for this application to make the process a lot more streamline.   
+As well as this, you will (hopefully) not need to copy and paste the ID to get your data.
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome.   
+or major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
