@@ -3,10 +3,6 @@
 
 KM's Summoner Tracker is a simple Python-based CLI which allows the user to get the Ranked data of any League of Legends player on the ladder.
 
-## Installation
-
-Download tracker.py and run.
-
 ## Requirements
 
 [Python 3.4 or later.](https://www.python.org/ftp/python/3.9.6/python-3.9.6-amd64.exe)
@@ -18,6 +14,7 @@ Install by running the following in the terminal (WIN + R > 'cmd').
 ```bash
 pip install requests
 ```
+
 ## How to Use
 
 To get the program up and running, simply open 'tracker.py'.   
