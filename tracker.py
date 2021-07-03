@@ -1,3 +1,5 @@
+# IMPORT REQUESTS
+
 import requests
 
 def getID(region, summonerName, APIKey):
@@ -27,9 +29,7 @@ def main():
     # send these three pieces off to getRankedData function which creates URL and gives me back a JSON that has the ID for that specific summoner
     response1 = getID(region, summonerName, APIKey)
 
-    print("\nID FOR", summonerName, "=", response1['id'])
-
-    ID = (str)(input('\nCopy and paste the ID you just got here: '))
+    ID = response1['id']
 
     response2 = getRankedData(region, ID, APIKey)
     print("\nSUMMONER NAME =", response2[0]["summonerName"])
