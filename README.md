@@ -37,8 +37,7 @@ After doing this, the Ranked data for the user you entered will be displayed.
 
 ## Roadmap
 
-I am in the process of developing a GUI for this application to make the process a lot more streamline.   
-As well as this, you will (hopefully) not need to copy and paste the ID to get your data.
+I am in the process of developing a GUI for this application to make the process a lot more streamline. 
 
 ## Contributing
 Pull requests are welcome.   
