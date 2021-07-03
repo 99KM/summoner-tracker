@@ -32,7 +32,7 @@ You will then be asked to enter your API. [Request one here.](https://developer.
   
 After doing this, the Ranked data for the user you entered will be displayed.
 
-![data](https://i.imgur.com/O5fUKaj.png)
+![data](https://i.imgur.com/ktnRKbt.png)
 
 
 ## Roadmap
