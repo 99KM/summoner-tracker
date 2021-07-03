@@ -30,14 +30,9 @@ Then, enter the Summoner Name.
 
 You will then be asked to enter your API. [Request one here.](https://developer.riotgames.com/)  
   
-  After entering, the ID for the Summoner you entered earlier will appear.
-
-![api](https://i.imgur.com/d6MEv7Q.png)
-
-You will be asked to enter copy and paste the ID that was just given to you.   
 After doing this, the Ranked data for the user you entered will be displayed.
 
-![data](https://i.imgur.com/rYrsZjS.png)
+![data](https://i.imgur.com/O5fUKaj.png)
 
 
 ## Roadmap
