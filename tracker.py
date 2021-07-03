@@ -1,5 +1,3 @@
-# IMPORT REQUESTS
-
 import requests
 
 def getID(region, summonerName, APIKey):
@@ -12,6 +10,7 @@ def getID(region, summonerName, APIKey):
 def getRankedData(region, ID, APIKey):
     URL2 = "https://" + region + ".api.riotgames.com/lol/league/v4/entries/by-summoner/" + ID + "?api_key=" + APIKey
     response2 = requests.get(URL2)
+    print(URL2)
     return response2.json()
 
 def main():
@@ -32,13 +31,13 @@ def main():
     ID = response1['id']
 
     response2 = getRankedData(region, ID, APIKey)
-    print("\nSUMMONER NAME =", response2[0]["summonerName"])
-    print("\nQUEUE =", response2[0]["queueType"])
-    print("\nRANK =", response2[0]["tier"], response2[0]["rank"])
-    print("\nLP =", response2[0]["leaguePoints"])
-    print("\nWINS =", response2[0]["wins"])
-    print("\nLOSSES =", response2[0]["losses"])
-    print("\nWIN RATE =", round(((response2[0]["wins"])/(response2[0]["losses"]+response2[0]["wins"])) * 100))
+    print("\nSUMMONER NAME =", response2[1]["summonerName"])
+    print("\nQUEUE =", response2[1]["queueType"])
+    print("\nRANK =", response2[1]["tier"], response2[1]["rank"])
+    print("\nLP =", response2[1]["leaguePoints"])
+    print("\nWINS =", response2[1]["wins"])
+    print("\nLOSSES =", response2[1]["losses"])
+    print("\nWIN RATE =", round(((response2[1]["wins"])/(response2[1]["losses"]+response2[1]["wins"])) * 100))
 
 
 if __name__ == "__main__":
